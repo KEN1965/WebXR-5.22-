@@ -553,8 +553,6 @@ body.capture-frozen #floor-center-marker {
 
     #output {
       --output-half-height: 0px;
-      opacity: 0 !important;
-      pointer-events: none !important;
       position: fixed;
       top: calc(20px + env(safe-area-inset-top));
       left: calc(20px + env(safe-area-inset-left));
@@ -648,7 +646,7 @@ body.capture-frozen #floor-center-marker {
       position: fixed;
       inset: 0;
       z-index: 5;
-      display: block;
+      display: none;
       background: #000;
       pointer-events: none;
     }
@@ -693,7 +691,6 @@ body.capture-frozen #floor-center-marker {
       pointer-events: auto;
       touch-action: none;
       cursor: move;
-      display: block;
     }
 
     #frozen-guide {
