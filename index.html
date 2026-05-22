@@ -557,7 +557,9 @@ body.capture-frozen #floor-center-marker {
       top: calc(20px + env(safe-area-inset-top));
       left: calc(20px + env(safe-area-inset-left));
       z-index: 30;
-      background: rgba(0,0,0,0.6);
+      opacity: 0;
+      pointer-events: none;
+      /* background: rgba(0,0,0,0.6);
       color: white;
       padding: 12px;
       white-space: pre-wrap;
@@ -571,7 +573,7 @@ body.capture-frozen #floor-center-marker {
       pointer-events: none;
       transform-origin: top left;
       transform: none;
-      transition: top 0.2s ease, left 0.2s ease, transform 0.2s ease, max-width 0.2s ease;
+      transition: top 0.2s ease, left 0.2s ease, transform 0.2s ease, max-width 0.2s ease; */
     }
 
     body.landscape-layout #output {
